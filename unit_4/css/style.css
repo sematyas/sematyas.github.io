@@ -1,27 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700);
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
+
 body{
 	background-image: url("http://orig04.deviantart.net/01a7/f/2014/077/b/9/freckles_photoshop_brush_by_screenlicker-d7aoiiw.jpg");
-	background-size: cover;
-	font-family: Verdana, Serif;
+	font-family: 'Domine', serif;
 }
 
 h1{
 	text-align: center;
 	color: #007f80;
-	font-size: 48px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	font-size: 5em;
+	line-height: .5em;
 }
+
 
 #slogan{
 	text-align: center;
 	color: 000;
-	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5em;
 	font-style: italic;
 	font-weight: bold;
+	
 }
 
 p{
 	text-align: center;
 	color: #000;
 	font-size: 14px;
+	margin: 1.5em;
 }
 
 ul{
@@ -34,8 +43,11 @@ ul{
 div{
 	background: white;
 	width: 50%;
-	height: 25%;
+	height: 55%;
 	margin: 0 auto; 
 	border: 8px solid rgba(0,230,200,.4);
 }
 	
+#contact{
+	font-weight: bold;
+}	
