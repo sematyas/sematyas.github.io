@@ -1,15 +1,19 @@
-
+@import url(https://fonts.googleapis.com/css?family=Voces);
 @import url(https://fonts.googleapis.com/css?family=Domine:400,700);
 
 body{
-	background-image: url("file://Users/Missy/Desktop/unit_1/sematyas.github.io/unit_5/images/painting-room.png");
-	background-size: cover;
 	font-family: 'Domine', serif;
+	margin-top: 0;
+	background-color: white;
+}
+
+h1,h4{
+	font-family: 'Voces', cursive;
 }
 
 h1{
 	text-align: center;
-	color: #007f80;
+	color: #000;
 	font-size: 3em;
 	line-height: 1.5em;
 }
@@ -19,32 +23,50 @@ h1{
 	text-align: center;
 	color: 000;
 	font-size: 1.5em;
+	font-family: 'Voces', cursive;
 	font-style: italic;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
-p{
+
+p {
 	color: #000;
 	font-size: 14px;
 	margin: 1.5em;
 }
-	
-div{
-	
+
+#review{
+	text-align: center;
+	margin: 2.5em;
+	line-height: 1.5em;
+	background-color: #FFC675;
 }
+
+#hero{
+	border: 5px white solid;
+	background-color: #FFE2B8;
+}	
 	
 header {
-	background: rgb(255,255,255);
-	border: 5px black solid;
-	border-bottom-width: 0px;
+	background-color: #FFED74;
 	text-align: center;
 }
 
 nav {
-	background: rgba(255,255,255,.5);
-	border: 5px black solid;
+	background-color: #E8C66A;
 	text-align: center;
+	color: #fff;
+}
+
+hr {
+width: 300px;
+}
+
+footer{
+	background-color: #FF957E;
+	text-align: center;
+	color: #000;
+	font-family: 'Voces', cursive;
 }
 
 #contact{
