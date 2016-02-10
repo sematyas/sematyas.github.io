@@ -1,0 +1,52 @@
+
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
+
+body{
+	background-image: url("file://Users/Missy/Desktop/unit_1/sematyas.github.io/unit_5/images/painting-room.png");
+	background-size: cover;
+	font-family: 'Domine', serif;
+}
+
+h1{
+	text-align: center;
+	color: #007f80;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+
+#slogan{
+	text-align: center;
+	color: 000;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+
+p{
+	color: #000;
+	font-size: 14px;
+	margin: 1.5em;
+}
+	
+div{
+	
+}
+	
+header {
+	background: rgb(255,255,255);
+	border: 5px black solid;
+	border-bottom-width: 0px;
+	text-align: center;
+}
+
+nav {
+	background: rgba(255,255,255,.5);
+	border: 5px black solid;
+	text-align: center;
+}
+
+#contact{
+	font-weight: bold;
+}	
