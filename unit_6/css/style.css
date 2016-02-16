@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Voces);
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
+
+body{
+	font-family: 'Domine', serif;
+	margin-top: 0;
+	background-color: white;
+}
+
+h1,h4{
+	font-family: 'Voces', cursive;
+}
+
+h1{
+	text-align: center;
+	color: #000;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+
+#slogan{
+	text-align: center;
+	color: 000;
+	font-size: 1.5em;
+	font-family: 'Voces', cursive;
+	font-style: italic;
+	font-weight: bold;	
+}
+
+
+p {
+	color: #000;
+	font-size: 14px;
+	margin: 1.5em;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#left{
+	background-color: #EF82A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right{
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding:20px;
+	float: right;
+	width: 62%;
+	
+}	
+	
+header {
+	background-color: #FFED74;
+	text-align: center;
+}
+
+nav {
+	background-color: #E8C66A;
+	text-align: center;
+	color: #fff;
+}
+
+hr {
+width: 300px;
+}
+
+footer{
+	background-color: #FF957E;
+	text-align: center;
+	color: #000;
+	font-family: 'Voces', cursive;
+}
+
+#contact{
+	font-weight: bold;
+}	
